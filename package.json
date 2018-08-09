@@ -1,0 +1,21 @@
+{
+  "name": "televisify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --dist",
+    "dev": "webpack --dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.15",
+    "express": "^4.14.0",
+    "postcss": "^7.0.2",
+    "sass": "^1.10.3",
+    "webpack": "^4.16.5"
+  }
+}
